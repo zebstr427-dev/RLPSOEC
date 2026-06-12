@@ -1,0 +1,11 @@
+{
+  "purpose": "Reference values for RLPSOEC link-capacity analysis.",
+  "source_data": [
+    "air_air_data.csv",
+    "air_air_data_1.csv",
+    "air_ground_data.csv",
+    "air_ground_data_1.csv"
+  ],
+  "source_data_policy": "Original CSV files are not overwritten.",
+  "reference_data_policy": "Rows in fitted_capacity_reference.csv are fitted reference values."
+}

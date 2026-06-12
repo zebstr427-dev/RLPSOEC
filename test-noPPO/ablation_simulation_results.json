@@ -1,0 +1,14 @@
+{
+  "trigger_count": 377,
+  "avg_comm_improvement": 0.37830687824133097,
+  "avg_convergence_speed": 1.0670714176273974,
+  "avg_reward": -0.3957097595131609,
+  "success_rate": 0.984,
+  "log_success_rate": 0.984,
+  "avg_total_capacity_mbps": 100.17408254212233,
+  "trigger_rate": 0.754,
+  "avg_relay_jump_m": 10.073420595841467,
+  "avg_optimization_time_s": 0.22593535137176513,
+  "total_optimizations": 377,
+  "pso_params_evolution": []
+}

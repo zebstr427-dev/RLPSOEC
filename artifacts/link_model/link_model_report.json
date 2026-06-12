@@ -1,0 +1,22 @@
+{
+  "model": "RLPSOEC measurement-driven link-capacity model",
+  "source_policy": "measurement inputs are preserved",
+  "fit": {
+    "bandwidth_hz": 10000000.0,
+    "gain": 2.2503720045482184e+16,
+    "path_loss_exponent": 4.6,
+    "mape_percent": 55.51232055550784,
+    "samples": 78,
+    "foliage_loss_db_per_m": 0.03,
+    "max_capacity_mbps": 260.0
+  },
+  "link_model_settings": {
+    "capacity_scale": 0.4030891670149899,
+    "reference_total_capacity_mean_mbps": 112.85214265707705,
+    "raw_positive_capacity_mean_mbps": 94.76923076923077,
+    "two_hop_bottleneck_factor": 0.677,
+    "equivalent_snr_offset_db": 0.0,
+    "tolerance": "aggregate model consistency, not row-level equality",
+    "note": "capacity_scale is applied inside the link-capacity model before simulation logging."
+  }
+}

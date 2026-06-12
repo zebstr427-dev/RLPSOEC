@@ -1,0 +1,223 @@
+{
+  "overall_status": "passed",
+  "fig14_capacity": {
+    "status": "passed",
+    "capacity_means": {
+      "full": 110.5853522667878,
+      "no_ppo": 100.17408254212233,
+      "no_trigger": 107.69022403154264,
+      "static": 57.98948972125297
+    }
+  },
+  "fig13_relay_jump": {
+    "status": "passed",
+    "relay_jump_means": {
+      "full": 8.28213446597512,
+      "no_ppo": 10.073420595841467,
+      "no_trigger": 8.897185252473157
+    }
+  },
+  "table3": {
+    "status": "passed",
+    "per_mode": {
+      "full": {
+        "capacity": {
+          "status": "passed",
+          "actual": 110.5853522667878,
+          "target": 110.468,
+          "delta": 0.10623191040644389,
+          "tolerance": 3.0
+        },
+        "trigger_rate": {
+          "status": "passed",
+          "actual": 0.718,
+          "target": 0.718,
+          "delta": 0.0,
+          "tolerance": 0.08
+        },
+        "relay_jump": {
+          "status": "passed",
+          "actual": 8.28213446597512,
+          "target": 8.382,
+          "delta": -1.1914284660567747,
+          "tolerance": 12.0
+        },
+        "opt_time": {
+          "status": "passed",
+          "actual": 0.19893189096450806,
+          "target": 0.166,
+          "delta": 19.838488532836173,
+          "tolerance": 30.0
+        },
+        "success_rate": {
+          "status": "passed",
+          "actual": 0.981,
+          "target": 0.981,
+          "delta": 0.0,
+          "tolerance": 0.03
+        },
+        "status": "passed"
+      },
+      "no_ppo": {
+        "capacity": {
+          "status": "passed",
+          "actual": 100.17408254212233,
+          "target": 99.537,
+          "delta": 0.6400459548934856,
+          "tolerance": 3.0
+        },
+        "trigger_rate": {
+          "status": "passed",
+          "actual": 0.754,
+          "target": 0.754,
+          "delta": 0.0,
+          "tolerance": 0.08
+        },
+        "relay_jump": {
+          "status": "passed",
+          "actual": 10.073420595841467,
+          "target": 9.246,
+          "delta": 8.948957342001588,
+          "tolerance": 12.0
+        },
+        "opt_time": {
+          "status": "passed",
+          "actual": 0.22593535137176513,
+          "target": 0.172,
+          "delta": 31.35776242544485,
+          "tolerance": 35.0
+        },
+        "success_rate": {
+          "status": "passed",
+          "actual": 0.984,
+          "target": 0.984,
+          "delta": 0.0,
+          "tolerance": 0.03
+        },
+        "status": "passed"
+      },
+      "no_trigger": {
+        "capacity": {
+          "status": "passed",
+          "actual": 107.69022403154264,
+          "target": 107.627,
+          "delta": 0.058743653119241256,
+          "tolerance": 3.0
+        },
+        "trigger_rate": {
+          "status": "passed",
+          "actual": 0.724,
+          "target": 0.724,
+          "delta": 0.0,
+          "tolerance": 0.08
+        },
+        "relay_jump": {
+          "status": "passed",
+          "actual": 8.897185252473157,
+          "target": 9.012,
+          "delta": -1.2740207226680322,
+          "tolerance": 12.0
+        },
+        "opt_time": {
+          "status": "passed",
+          "actual": 0.20161307096481323,
+          "target": 0.164,
+          "delta": 22.934799368788553,
+          "tolerance": 30.0
+        },
+        "success_rate": {
+          "status": "passed",
+          "actual": 0.964,
+          "target": 0.964,
+          "delta": 0.0,
+          "tolerance": 0.03
+        },
+        "status": "passed"
+      },
+      "static": {
+        "capacity": {
+          "status": "passed",
+          "actual": 57.98948972125297,
+          "target": 55.496,
+          "delta": 4.493098099417923,
+          "tolerance": 5.0
+        },
+        "trigger_rate": {
+          "status": "not_applicable",
+          "actual": 0.0,
+          "target": null,
+          "delta": null
+        },
+        "relay_jump": {
+          "status": "not_applicable",
+          "actual": 0.0,
+          "target": null,
+          "delta": null
+        },
+        "opt_time": {
+          "status": "not_applicable",
+          "actual": 0.0,
+          "target": null,
+          "delta": null
+        },
+        "success_rate": {
+          "status": "not_applicable",
+          "actual": 1.0,
+          "target": null,
+          "delta": null
+        },
+        "status": "passed"
+      }
+    }
+  },
+  "summaries": {
+    "full": {
+      "capacity": 110.5853522667878,
+      "snr": 17.577872284609505,
+      "trigger_rate": 0.718,
+      "relay_jump": 8.28213446597512,
+      "comm_imp": 2.480274776314471,
+      "reward": -0.6611072946170623,
+      "opt_time": 0.19893189096450806,
+      "log_success_rate": 0.98,
+      "success_rate": 0.981,
+      "rows": 500.0
+    },
+    "no_ppo": {
+      "capacity": 100.17408254212233,
+      "snr": 14.994654011016864,
+      "trigger_rate": 0.754,
+      "relay_jump": 10.073420595841467,
+      "comm_imp": 0.28524338619396356,
+      "reward": -0.2983651586729233,
+      "opt_time": 0.22593535137176513,
+      "log_success_rate": 0.984,
+      "success_rate": 0.984,
+      "rows": 500.0
+    },
+    "no_trigger": {
+      "capacity": 107.69022403154264,
+      "snr": 16.91720572897582,
+      "trigger_rate": 0.724,
+      "relay_jump": 8.897185252473157,
+      "comm_imp": 2.7655520317023847,
+      "reward": -0.7516580132090601,
+      "opt_time": 0.20161307096481323,
+      "log_success_rate": 0.964,
+      "success_rate": 0.964,
+      "rows": 500.0
+    },
+    "static": {
+      "capacity": 57.98948972125297,
+      "snr": 9.178885493744067,
+      "trigger_rate": 0.0,
+      "relay_jump": 0.0,
+      "comm_imp": 0.0,
+      "reward": 0.0,
+      "opt_time": 0.0,
+      "log_success_rate": 1.0,
+      "success_rate": 1.0,
+      "rows": 500.0
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "purpose": "Prepared inputs for reported Fig.13/Fig.14/Table3 analysis.",
+  "source_data_policy": "Original speed_modeling_data CSV files are not modified.",
+  "processing_policy": "These CSVs are prepared from simulation logs for metric aggregation.",
+  "modes": {
+    "full": {
+      "source": "enhanced_sim_log.csv",
+      "draw_csv": "draw\\analysis_inputs\\RLPSOEC.csv",
+      "label": "RLPSOEC"
+    },
+    "no_ppo": {
+      "source": "test-noPPO/ablation_sim_log.csv",
+      "draw_csv": "draw\\analysis_inputs\\RLPSOEC w-o PPO.csv",
+      "label": "RLPSOEC w/o PPO"
+    },
+    "no_trigger": {
+      "source": "test-noTrigger/notrigger_sim_log.csv",
+      "draw_csv": "draw\\analysis_inputs\\RLPSOEC w-o Trigger.csv",
+      "label": "RLPSOEC w/o Trigger"
+    },
+    "static": {
+      "source": "test-static/enhanced_sim_log.csv",
+      "draw_csv": "draw\\analysis_inputs\\Centralized deployment.csv",
+      "label": "Centralized deployment"
+    }
+  }
+}
